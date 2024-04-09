@@ -1,0 +1,208 @@
+<mjml>
+<!--Head-->
+<mj-head>
+    <mj-attributes>
+        <mj-text font-size="16px" color="#2D3748"/>
+        <mj-class name="D_section" background-color="#ffffff" padding="20px 32px" />
+        <mj-class name="DText" font-size="16px" font-weight="300" line-height="20px" color=""/>
+        <mj-all font-family="Arial, Helvetica, sans-serif"/>
+    </mj-attributes>
+    <mj-title>Lettre Ecosup Assurance - Entreprise Avril 2024 </mj-title>
+     <mj-breakpoint width="480px" />
+    <mj-style>
+        @media all and (max-width: 480px) {
+        .M_padding td{ 
+            padding-left: 32px !important;
+            padding-right: 32px !important;
+          }
+        .M_paddingHead td{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+          }
+        .M_paddingReset td{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+          }
+        .M_paddingRS td{
+            padding-bottom: 10px !important;
+            padding-right: 10px !important;
+            }
+        .M_paddingButton td{
+            padding-top: 20px;
+        }
+        }
+    </mj-style>
+</mj-head>
+<!--Body-->
+    <mj-body background-color="#fcfcfc">
+<!--lettre Mirroir-->
+        <mj-section background-color="#ffffff" padding="20px 32px 4px 32px" >
+            <mj-column >
+            <mj-text padding="0" align="center" font-size="12px" font-weight="300" line-height="16px" color="#2D3748">
+                si vous n'arrivez pas à lire cet email, cliquez <a style="color:#BA4995;text-decoration:none;font-weight:700" href="{{ mirror}}">ici</a>
+            </mj-text>
+            </mj-column>
+        </mj-section>
+<!--banniere Logo-->
+        <mj-section background-color="#EDF2F7" padding="20px 32px 5px 32px" css-class="M_paddingHead">
+            <mj-group>     
+            <mj-column css-class="M_paddingReset">
+                <mj-image align="left" padding="0" width="256px" src="https://img.mailinblue.com/3403292/images/content_library/original/65eb2771d0c8d6691c4e4e7c.png" href="https://ecosup-assurance.fr" alt="Logo Ecosup Assurance" />
+            </mj-column>
+            <mj-column css-class="M_paddingReset">
+                <mj-image align="right" padding="0" width="150px" src="https://img.mailinblue.com/3403292/images/content_library/original/65eb277b6d8c909673de86c1.png" alt="Logo de la Newsletter" />  
+            </mj-column>
+            </mj-group>
+        </mj-section>
+<!--Reseaux sociaux-->       
+        <mj-section background-color="#EDF2F7" padding="0px 32px" css-class="M_paddingHead"> 
+            <mj-column css-class="M_paddingReset">
+            <mj-social css-class="M_paddingRS" align="right" padding="0 1px 0 0" icon-size="30px"  mode="horizontal">
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65e9a0e8e9b9c597806fa9e9.gif" href="https://facebook.com/EcosupCamp/" alt="icon Facebook">
+                </mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65e9a0f123605bbe5926c9b7.gif" href="https://www.instagram.com/ecosup.campus/" alt="icon Instagram">
+                </mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/65e9a0f823605bbe5926c9b9.gif" href="https://linkedin.com/company/ecosup-campus" alt="icon Linkedin">     
+                </mj-social-element>
+            </mj-social>
+            </mj-column>
+        </mj-section>
+<!--Numéro Newsletter-->
+        <mj-section background-color="#EDF2F7" padding="0px 32px" css-class="M_paddingHead">
+            <mj-column css-class="M_paddingReset">
+                <mj-text padding="2px 0" align="left" font-size="16px" font-weight="300" color="#2D3748"> 
+                    <span style="font-weight:700;text-transform:uppercase">News Ecosup Assurance</span> | Avril 2024
+                </mj-text>
+            </mj-column>
+        </mj-section>
+<!--Hero-->
+<!--Bandeau Accroche-->
+        <mj-section background-color="#270938" padding="20px 60px 20px" css-class="M_padding">
+            <mj-column css-class="M_paddingReset">
+            <mj-text align="center" padding="0" font-size="28px" font-weight="500" color="#BA4995">
+                    <strong style="color:#ffffff;">Vous avez besoin de recruter !</strong> Nous avons des <strong style="color:#ffffff;">solutions en alternance</strong> pour renforcer vos équipes. Profitez des aides gouvernementales et d'un accompagnement complet avec Ecosup Assurance.
+                </mj-text>
+                <mj-button padding="25px 0 15px 0" align="center" font-size="16px" background-color="#BA4995" color="#ffffff" href="https://forms.gle/VzjhCrdHUZhyeTCa7" >
+                    Contactez-nous
+                </mj-button>
+            </mj-column>
+        </mj-section>
+    <!--Image-->
+        <mj-section background-color="#EDF2F7" padding="0px">
+            <mj-column >
+                <mj-image padding="0" fluid-on-mobile="true" width="600px" src="src/img/Grand_042024.jpg" href="https://ecosup-assurance.fr/alternance-modele-educatif-vent-en-poupe/" alt="L'alternance un modèle éducatif" />
+            </mj-column>
+        </mj-section>  
+    <!--Texte-->  
+        <mj-section background-color="#EDF2F7" padding="10px 60px 20px" css-class="M_padding" >
+            <mj-column css-class="M_paddingReset">     
+                <mj-text padding="5px 0 2px 0" font-size="14px" font-weight="900" text-transform="uppercase" color="#944694">
+                    Dossier
+                </mj-text>
+                <mj-text padding="0" font-size="28px" font-weight="700" color="#684092">
+                    L'Alternance :
+                </mj-text>
+                <mj-text padding="0 0 4px 0" font-size="28px" font-weight="700" color="#684092">
+                    un modèle éducatif qui a le vent en poupe
+                </mj-text>
+                <mj-text padding="0" font-size="16px" font-weight="700" line-height="20px">
+                   L'alternance : un tremplin vers l'insertion professionnelle 
+                </mj-text>
+                <mj-text padding="0" font-size="16px" font-weight="500" line-height="20px">
+                    L'alternance, mode de formation combinant un cursus académique et une expérience professionnelle rémunérée, séduit de plus en plus d'étudiants. Décryptage en trois points de ses atouts et des démarches à suivre pour s'engager dans cette voie prometteuse.
+                </mj-text>
+                <mj-text padding="0" font-size="16px" font-weight="700" line-height="20px">
+                    1. Pédagogie innovante et professionnalisante
+                </mj-text>
+                <mj-text padding="0" font-size="16px" font-weight="700" line-height="20px">
+                    2. Deux contrats pour des objectifs distincts
+                </mj-text>
+                <mj-text padding="0" font-size="16px" font-weight="700" line-height="20px">
+                    3. Démarches et recherche d'alternance
+                </mj-text>
+                <mj-text align="right" font-weight="700">
+                <a href="https://ecosup-assurance.fr/alternance-modele-educatif-vent-en-poupe/" style="color:#BA4995;text-decoration:none;">Lire la suite...</a>    
+                </mj-text>
+            </mj-column>        
+        </mj-section>
+<!--Article 1-->
+        <mj-section background-color="#ffffff" padding="20px 24px 10px 24px">
+            <mj-column padding="8px">
+                <mj-image padding="0" fluid-on-mobile="true" src="src/img/let1_042024.jpg" href="https://ecosup-assurance.fr/decrocher-contrat-alternance-3-etapes-cles-reussir/" alt="Décrocher son contrat d'alternance en 3 étapes" />
+            </mj-column>
+            <mj-column padding="8px">
+                <mj-text padding="0" align="left" font-size="14px" font-weight="900" color="#944694" line-height="18px" text-transform="uppercase">
+                    Actualités assurance
+                </mj-text>
+                <mj-text padding="0" align="left" font-size="20px" font-weight="700" line-height="24px" color="#684092">
+                    Décrocher un contrat d'alternance : 3 étapes clés pour réussir
+                </mj-text>
+                <mj-text padding="0" font-size="16px" line-height="20px" font-weight="300">
+                    Avant de vous lancer dans la recherche d'un contrat d'alternance, il est essentiel de définir vos objectifs professionnels. Quel secteur vous attire ?
+                </mj-text>
+                <mj-text align="right" color="#BA4995" font-weight="700">
+                <a href="https://ecosup-assurance.fr/decrocher-contrat-alternance-3-etapes-cles-reussir/" style="color:#BA4995;text-decoration:none;">Lire la suite...</a>    
+                </mj-text>
+            </mj-column>
+        </mj-section>
+<!--Video-->
+    <mj-section background-color="#EDF2F7" padding="20px 24px">
+        <mj-column padding="8px">
+            <mj-text padding="0" font-size="14px" line-height="18px" font-weight="900" text-transform="uppercase" color="#c4302b">
+                    Notre chaîne Youtube
+            </mj-text>
+            <mj-text padding="0" font-size="28px" line-height="32px" font-weight="700" color="#684092">
+                L'Assurance, quels métiers ?
+            </mj-text>
+            <mj-text padding="0" font-size="28px" line-height="32px" font-weight="700" color="#684092">
+                Ecosup Assurance vous explique...
+            </mj-text>
+        </mj-column>
+        <mj-column padding="8px">  
+            <mj-image padding="0" fluid-on-mobile="true" src="src/img/Youtube_042024.jpg" href="https://youtu.be/BCOZz7vIFCE?si=B7XLGdr77S9EM1Bu" alt="Video sur les métiers de l'Assurance"/>      
+        </mj-column>
+    </mj-section>
+<!--Agenda-->
+    <mj-section background-color="#ffffff" padding="20px 24px"> 
+    <mj-column width="536px">
+        <mj-text padding="0 0 10px 0" align="left" font-size="28px" font-weight="700" color="#684092" >
+            À vos Agendas
+        </mj-text>
+    </mj-column >
+<!--Date 1--> 
+        <mj-group width="100%">     
+            <mj-column width="50%" padding="8px">
+            <mj-image padding="0" fluid-on-mobile="true" src="src/img/JPO13042024.jpg" alt="Affiche JPO 13/04/2024" />
+            </mj-column>
+<!--Date 2-->
+            <mj-column width="50%" padding="8px">
+                <mj-image padding="0" fluid-on-mobile="true" src="src/img/JD25042024.jpg" alt="Affiche JOB DATING 25/04/2024" />
+            </mj-column>
+        </mj-group>    
+    </mj-section>
+<!--footer-->
+    <mj-section background-color="#ffffff" padding="20px 32px">
+         <mj-column width="320px">
+            <mj-image width="140px" padding="0" align="center" src="https://img.mailinblue.com/3403292/images/content_library/original/65eb27b4d0c8d6691c4e4e95.png" href="https://ecosup-campus.com" alt="Logo Ecosup Campus" />
+            <mj-text padding="0" align="center" font-size="12px" font-weight="300" line-height="16px" color="#2D3748">
+                17 rue Charles et Albert Roussel
+            </mj-text>
+            <mj-text padding="0" align="center" font-size="12px" font-weight="300" line-height="16px" color="#2D3748" text-transform="uppercase">
+                59200 Tourcoing
+            </mj-text>
+            <mj-text padding="0" align="center" font-size="12px" font-weight="700" line-height="16px" color="#2D3748">
+                Tél 03.20.70.06.06                
+            </mj-text>
+            <mj-text padding="0 0 25px 0" align="center" font-size="12px" font-weight="300" line-height="16px" color="#2D3748">
+                contact@ecosup-campus.fr
+            </mj-text>
+            <mj-text padding="0" align="center" font-size="12px" font-weight="300" line-height="16px" color="#2D3748">
+                Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.
+            </mj-text>
+            <mj-text padding="0" align="center" font-size="12px" font-weight="300" line-height="16px" color="#2D3748">
+                Pour vous désinscrire de nos communications par courriel, cliquez <a style="color:#BA4995;text-decoration:none;font-weight:700" href="{{ unsubscribe}}">ici</a>.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    </mj-body>
+</mjml>
